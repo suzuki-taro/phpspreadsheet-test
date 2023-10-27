@@ -1,10 +1,9 @@
 <?php
+require './vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
-
-require './vendor/autoload.php';
 
 // https://phpspreadsheet.readthedocs.io/en/latest/topics/recipes/#write-a-date-or-time-into-a-cell
 // https://phpspreadsheet.readthedocs.io/en/latest/topics/accessing-cells/#beware-cells-assigned-to-variables-as-a-detached-reference
